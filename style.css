@@ -1,0 +1,132 @@
+body {
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color:  hsl(256, 87%, 37%);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 0.5rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+}
+
+section h2 {
+    border-bottom: 2px solid  hsl(256, 87%, 37%);
+    padding-bottom: 0.5rem;
+}
+
+.project {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+footer {
+    background-color:  hsl(256, 87%, 37%);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 0.5rem 0 0.2rem;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+}
+
+form button {
+    padding: 0.7rem;
+    background-color: hsl(256, 87%, 37%);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color:  hsl(256, 87%, 37%);
+}
+.image{
+    width: 300px;
+    height: 300px;
+    border-radius: 40%;
+    margin-left: 900px;
+    margin-top: 10px;
+    margin-right: 1000px;
+}
+
+.ulimg{
+    width: 100px;
+    height: 100px;
+    gap: 13px;;
+
+}
+
+
+.cont {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .cont img {
+    align-self: center;
+    width: 100px;
+    max-width: 2000px;
+    height: 200px;
+    height:auto;
+    margin-left: 60px;
+    
+}
+  .contimage {
+    align-self: center;
+    width: 100px;
+    max-width: 2000px;
+    height: 200px;
+    height:auto;
+    margin-left: 60px;
+    
+}
+.bcolor{
+    background-color: #cbcfcf;
+}
